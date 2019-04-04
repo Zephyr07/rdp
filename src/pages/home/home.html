@@ -1,17 +1,24 @@
-<ion-header>
-  <ion-navbar>
-    <ion-title>Home</ion-title>
-  </ion-navbar>
-</ion-header>
 
-<ion-content padding>
-  <h2>Welcome to Ionic!</h2>
-  <p>
-    This starter project comes with simple tabs-based layout for apps
-    that are going to primarily use a Tabbed UI.
-  </p>
-  <p>
-    Take a look at the <code>src/pages/</code> directory to add or change tabs,
-    update any existing page or create new pages.
-  </p>
+<ion-content class="home" padding>
+ 	<div class="titre">
+ 		WIICOD S.A.S
+ 	</div>
+ 	<div class="contenu">
+ 		<div class="content1" (click)="onGoToRamasage()">
+ 			<ion-icon name="trash"></ion-icon> <br>
+ 			Ramassage
+ 		</div>
+ 		<div class="content2" (click)="onGoToInfos()">
+ 			<ion-icon name="information-circle"></ion-icon> <br>
+ 			Info
+ 		</div>
+ 		<div class="content3" (click)="onGoToService()">
+ 			<ion-icon name="apps"></ion-icon> <br>
+ 			Service
+ 		</div>
+ 		<div class="content4" (click)="onGoToCompte()">
+ 			<ion-icon name="contact"></ion-icon> <br>
+ 			Mon compte
+ 		</div>
+ 	</div>
 </ion-content>
