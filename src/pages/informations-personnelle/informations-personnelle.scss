@@ -1,0 +1,42 @@
+page-informations-personnelle {
+	.home{
+		background-image: url("../../assets/imgs/bg.jpg");
+    	background-repeat: no-repeat;
+    	background-size: cover;
+    	font-size: 12px !important;
+	}
+
+	ion-card-content{
+		font-size: 12px !important;
+	}
+	.header-card{
+		font-weight: bold;
+		border-bottom: 2px solid black;
+		height: 30px;
+		padding: 0px;
+		margin: 10px 12px 10px 12px;
+		font-size: 14px !important;
+	}
+	.h3{
+		font-weight: bold;
+		margin-bottom: 10px;
+	}
+	ion-card-content .modif{
+		margin-top: 10px !important;
+		color: #076477 !important;
+		text-decoration: underline;
+	}
+	ion-card-content p{
+		margin-top: 10px !important;
+		font-size: 12px !important;
+	}
+	.img-icon{
+		width: 90%;
+	}
+	.img-icon, .icons{
+		display: inline-block;
+	}
+	.icons{
+		color: #076477;
+	}
+}

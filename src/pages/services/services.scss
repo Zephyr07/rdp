@@ -1,0 +1,26 @@
+page-services {
+	.home{
+		background-image: url("../../assets/imgs/bg.jpg");
+    	background-repeat: no-repeat;
+    	background-size: cover;
+    	font-size: 12px !important;
+	}
+	ion-card-header{
+		font-size: 14px !important;
+	}
+	.titre{
+		font-weight: bold;
+		text-align: center;
+	}
+	.header-card{
+		font-weight: bold;
+	}
+	ion-card-content p{
+		font-size: 12px !important;
+	}
+	ion-card-content span{
+		color: #076477;
+		font-size: 12px !important;
+	}
+
+}

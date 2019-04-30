@@ -1,0 +1,41 @@
+page-reabonnement {
+	.home{
+		background-image: url("../../assets/imgs/bg.jpg");
+    	background-repeat: no-repeat;
+    	background-size: cover;
+    	font-size: 12px !important;
+	}
+	ion-card-content{
+		font-size: 12px !important;
+	}
+	ion-card-header, ion-select{
+		font-size: 12px !important;
+	}
+	.header-card{
+		font-weight: bold;
+		border-bottom: 2px solid black;
+		height: 30px;
+		padding: 0px;
+		margin: 10px 10px 10px 10px;
+	}
+	.img-icon{
+		width: 90%;
+	}
+	.img-icon, .icons{
+		display: inline-block;
+	}
+	.orange{
+		height: 35px;
+		padding: 10px;
+		background-color: #076477;
+		color: white;
+		font-weight: bold;
+	}
+	.grey{
+		height: 35px;
+		padding: 10px;
+		background-color: #ccc;
+		margin-top: 3px;
+	}
+
+}

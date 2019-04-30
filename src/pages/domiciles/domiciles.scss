@@ -1,0 +1,33 @@
+page-domiciles {
+	.home{
+		background-image: url("../../assets/imgs/bg.jpg");
+    	background-repeat: no-repeat;
+    	background-size: cover;
+    	font-size: 12px !important;
+	}
+	.header-card{
+		font-weight: bold;
+		font-size: 14px !important;
+	}
+	ion-card-content p{
+		font-size: 12px !important;
+	}
+	.ferme{
+		color: red;
+		font-size: 20px;
+		margin-left: 10px;
+		font-weight: bold;
+	}
+	.modif{
+		color: #076477;
+		font-size: 20px;
+		margin-left: 30px;
+		font-weight: bold;
+	}
+	.actions{
+		width: 30%;
+		margin-left: 70%;
+		margin-top: 10px;
+	}
+
+}

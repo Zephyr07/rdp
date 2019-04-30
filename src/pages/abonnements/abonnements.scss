@@ -1,0 +1,44 @@
+page-abonnements {
+	.home{
+		background-image: url("../../assets/imgs/bg.jpg");
+    	background-repeat: no-repeat;
+    	background-size: cover;
+    	font-size: 12px !important;
+	}
+	ion-card-content{
+		font-size: 12px !important;
+	}
+	.header-card{
+		font-weight: bold;
+		border-bottom: 2px solid black;
+		height: 30px;
+		padding: 0px;
+		margin: 10px 10px 10px 10px;
+		font-size: 14px !important;
+	}
+	.h3{
+		font-weight: bold;
+		margin-bottom: 10px;
+		color: #076477;
+		text-decoration: underline;
+	}
+	ion-card-content div{
+		width: 50% !important;
+		font-size: 12px;
+		display: inline-block;
+	}
+	.btn-flat{
+		height: 40px;
+		width: 40px;
+		background-color: #076477;
+		border-radius: 50%;
+		text-align: center;
+		color: white;
+		padding-top: 5px;
+		font-size: 26px;
+		position: absolute;
+		right: 20px;
+		bottom: 20px;
+	}
+
+}

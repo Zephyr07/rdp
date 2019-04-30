@@ -1,0 +1,59 @@
+page-ramassage {
+
+	@keyframes fadeIn {
+	  from {
+	    opacity: 0;
+	  }
+
+	  to {
+	    opacity: 1;
+	  }
+	}
+	
+	.home{
+		background-image: url("../../assets/imgs/bg.jpg");
+    	background-repeat: no-repeat;
+    	background-size: cover;
+	}
+	.titre{
+		text-align: center;
+		margin: 10px 0px 10px 0px;
+		font-size: 14px;
+		font-weight: bold;
+	}
+	.header-card{
+		font-weight: bold;
+		font-size: 14px;
+	}
+	ion-card-content p{
+		font-size: 12px !important;
+	}
+	ion-card span{
+		color: #076477;
+		font-size: 12px;
+	}
+	.toast{
+		background-color: #076477;
+	}
+	.card1 {
+	  animation-name: fadeIn;
+	  animation-duration: 1s;
+	}
+	.card2 {
+	  animation-name: fadeIn;
+	  animation-duration: 2s;
+	}
+	.card3 {
+	  animation-name: fadeIn;
+	  animation-duration: 3s;
+	}
+	.card4 {
+	  animation-name: fadeIn;
+	  animation-duration: 4s;
+	}
+	.card5 {
+	  animation-name: fadeIn;
+	  animation-duration: 5s;
+	}
+
+}

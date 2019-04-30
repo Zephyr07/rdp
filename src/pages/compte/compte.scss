@@ -1,0 +1,30 @@
+page-compte {
+	.home{
+		background-image: url("../../assets/imgs/bg.jpg");
+    	background-repeat: no-repeat;
+    	background-size: cover;
+    	font-size: 12px !important;
+	}
+	.cadre-user{
+		text-align: center;
+		font-size: 16px;
+		margin-bottom: 25px;
+	}
+	.img-user{
+		font-size: 150px;
+		color: #076477;
+	}
+	.img-icon{
+		width: 90%;
+	}
+	.img-icon, .icon{
+		display: inline-block;
+	}
+	.other{
+		height: 40px;
+		background-color: #fff;
+		margin-top: 10px;
+		padding: 10px;
+	}
+
+}

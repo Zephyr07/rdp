@@ -1,0 +1,42 @@
+page-choix-domicile {
+	.home{
+		background-image: url("../../assets/imgs/bg.jpg");
+    	background-repeat: no-repeat;
+    	background-size: cover;
+    	font-size: 12px !important;
+	}
+	ion-card-content p{
+		font-size: 12px !important;
+	}
+	.check ion-card-header{
+		color: white;
+		font-weight: bold;
+	}
+	ion-card-header{
+		font-weight: bold;
+	}
+	.img-icon{
+		width: 90%;
+	}
+	.img-icon, .icon{
+		display: inline-block;
+	}
+	.check{
+		background-color: #076477;
+	}
+	.check p{
+		color: white;
+	}
+	.cadre-btn{
+		width: 50%;
+		margin-left: 20%;
+		text-align: center;
+		position: fixed;
+		bottom: 10px;
+	}
+	.cadre-btn button{
+		color: black !important;
+		width: 100%;
+	}
+
+}

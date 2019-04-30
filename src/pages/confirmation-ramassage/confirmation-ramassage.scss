@@ -1,0 +1,63 @@
+page-confirmation-ramassage {
+	.home{
+		background-image: url("../../assets/imgs/bg.jpg");
+    	background-repeat: no-repeat;
+    	background-size: cover;
+	}
+	.header-card{
+		font-weight: bold;
+		border-bottom: 2px solid black;
+		height: 30px;
+		padding: 0px;
+		font-size: 13px;
+		margin: 10px 10px 10px 10px;
+	}
+	.h3{
+		font-weight: bold;
+		margin-bottom: 10px;
+		font-size: 12px;
+	}
+	ion-card-content{
+		font-size: 12px !important;
+	}
+	ion-card span{
+		color: #076477;
+		font-size: 12px;
+	}
+	ion-card .montant span{
+		color: black;
+		font-size: 13px;
+	}
+	.prix{
+		font-weight: bold;
+	}
+	.other{
+		height: 40px;
+		background-color: #ccc;
+		margin-top: 7px;
+		padding: 10px;
+	}
+	.orange{
+		background-color: #076477;
+		font-weight: bold;
+	}
+	.img-icon{
+		width: 90%;
+	}
+	.img-icon, .icon{
+		display: inline-block;
+		color: #fff;
+	}
+	.om{
+		height: 40px;
+		width: 40px;
+		margin-left: 20px;
+	}
+	.paiement{
+		color: #fff;
+	}
+	.paiement, .om{
+		display: inline-block;
+		margin-top: 10px;
+	}
+}
